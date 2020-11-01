@@ -14,10 +14,6 @@ export class MainListComponent implements OnInit {
     'Projets',
   ];
 
-// frPropo = FrameContent(Experience,[Frameitem('EPF'),Frameitem('Lycée'),Frameitem())
-// frPropo = FrameContent(Formation,[Frameitem('EPF'),Frameitem('Lycée'),Frameitem())
-// frPropo = FrameContent(Projets,[Frameitem('EPF'),Frameitem('Lycée'),Frameitem())
-
   constructor() { }
 
   ngOnInit() { }

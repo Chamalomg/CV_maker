@@ -14,10 +14,12 @@ export class SideListComponent implements OnInit {
     {name: 'Réseaux sociaux', elements: ['name','logo','link',], type:'socialLink'},
     {name: 'Langues', elements: ['name','logo','level',],type:'languages'},
     {name: 'Compétences',elements: ['name','logo','level',],type:'skills'}
-  ]
+  ];
+
   containers = [
     'Episode I - The Phantom Menace',
   ];
+
   toAdd = [
     'Episode II - Attack of the Clones',
     'Episode III - Revenge of the Sith',

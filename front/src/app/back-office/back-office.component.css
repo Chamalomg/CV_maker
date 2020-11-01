@@ -44,7 +44,12 @@
     font-size: smaller;
 }
 
-
 .custom-file {
     text-align: initial;
+}
+
+.badge {
+    font-size: 1em;
+    color: white;
+    background-color: #A34553;
 }

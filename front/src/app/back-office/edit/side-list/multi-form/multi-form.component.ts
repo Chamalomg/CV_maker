@@ -54,6 +54,7 @@ export class MultiFormComponent implements OnInit {
             logo: [''],
         });
     }*/
+
     onFileChanged(event) {
         const ext = event.target.files[0].name.match(/\.(.+)$/)[1];
         if(ext.toLocaleLowerCase() ==='jpg' || ext.toLocaleLowerCase() ==='jpeg' || ext.toLocaleLowerCase() ==='png'){
